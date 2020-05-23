@@ -1,0 +1,19 @@
+{
+ "name": "FirstElectronApp",
+ "version": "1.0.0",
+ "main": "main.js",
+ "author": "mateusfg7",
+ "license": "MIT",
+ "scripts": {
+  "start": "electron .",
+  "pack": "electron-builder --dir",
+  "dist": "electron-builder"
+ },
+ "build": {
+ 	"appId": "mateusfg7.electronapp"
+ },
+ "devDependencies": {
+  "electron": "^9.0.0",
+  "electron-builder": "^22.6.1"
+ }
+}
